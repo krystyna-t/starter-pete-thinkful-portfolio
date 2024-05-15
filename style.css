@@ -76,3 +76,25 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+.left-align {
+  text-align: left;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+}
+
+.description {
+  font-size: 14px;
+}
